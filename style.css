@@ -1,0 +1,30 @@
+
+
+/* Logo */
+/* Adapted from Zachary Blackwood */
+[data-testid="stSidebar"] {
+                background-image: url(https://static.wixstatic.com/media/d34cc5_6396eedf64664d588f8e1e62035896af~mv2.png/v1/fill/w_1281,h_437,al_c/d34cc5_6396eedf64664d588f8e1e62035896af~mv2.png);
+                background-size: 200px;
+                background-repeat: no-repeat;
+                background-position: 30px 20px;
+            }
+
+/* Color etiquetas y títulos*/
+h3,
+label[data-testid="stMetricLabel"] p{
+    font-weight:bold;
+    color:#2D2E78
+}
+
+/* Estilo de valor de métricas*/
+div[data-testid="stMetricValue"]{
+    font-size:2.5em;
+    font-weight:bold;
+    color: #82858d;
+}
+
+
+
+.modebar { display: none !important; }
+
+iframe[title="streamlit_folium.st_folium"] { height: 500px;}
